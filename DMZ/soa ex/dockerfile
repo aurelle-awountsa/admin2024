@@ -1,7 +1,6 @@
-FROM ubuntu:lastest
+FROM ubuntu:bionic 
 #image ubuntu
 
-MAINTAINER Aurelle Awountsa <aawountsa@gmail.com>
 
 #mise a jour image et installation de bind9 
 
@@ -21,12 +20,11 @@ COPY l2-8.ephec-ti.be /etc/bind/
 #CREATION DU FICHIER DE LOG
 RUN mkdir /var/log/named
 RUN touch /var/log/named/misc.log /var/log/named/query.log
-RUN chown -R root:bind /var/log/named
 
 
 #ouverture du port 53 en udp de image
-EXPOSE 53/tcp
-EXPOSE 53/udp
+EXPOSE 953/tcp
+EXPOSE 953/udp
 
 
 WORKDIR /etc/bind
