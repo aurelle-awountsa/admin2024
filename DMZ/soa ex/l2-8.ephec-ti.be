@@ -1,5 +1,5 @@
 $TTL  604800
-@     IN      SOA      ns.l2-8.ephec-ti.be.  2tli-8.ephec-ti.be.(
+@     IN      SOA      ns.l2-8.ephec-ti.be.  2tl2-8.ephec-ti.be.(
                                  1          ; serial a incrementer a chaque fois qu'on fait une modification 
                                 21600      ; refresh (6 hours)
                                 3600       ; retry (1 hour)
