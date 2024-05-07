@@ -1,0 +1,17 @@
+$ORIGIN l2-8.ephec-ti.be.
+$TTL 86400
+@       IN      SOA     ns.l2-8.ephec-ti.be.    l2-8.ephec-ti.be. (
+                        2001062505 ; serial
+                        21600      ; refresh after 6 hours
+                        3600       ; retry after 1 hour
+                        604800     ; expire after 1 week
+                        86400 )    ; minimum TTL of 1 day
+
+
+        IN      NS      ns.l2-8.ephec-ti.be.
+        IN      MX  10  mail.l2-8.ephec-ti.be.
+
+ns      IN      A       54.37.12.129
+www     IN      A       54.37.12.129
+mail    IN      A       54.37.12.129
+www2    IN      A       54.37.12.129
